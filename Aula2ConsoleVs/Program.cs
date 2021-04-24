@@ -12,7 +12,7 @@ namespace Aula2ConsoleVs
 
             var numberText = Console.ReadLine();
 
-            var parseDidntWork = !Int32.TryParse(numberText, out var number);
+            var parseDidntWork = !int.TryParse(numberText, out var number);
 
             if (parseDidntWork)
             {
